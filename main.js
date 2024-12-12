@@ -6,10 +6,10 @@ for (var x = 1; x <= 5; x++) {
     var guessNum = Math.floor(Math.random(num) * 5 + 1);
 
     if (num == guessNum) {
-        document.write("You won: Guss Num = " + guessNum + "<br>");
+        document.write("You won: Guess Number = " + guessNum + "<br>");
         numWon++;
     }else {
-        document.write("You lost: Guss Num = " + guessNum + ", Your Num = " + num + "<br>");
+        document.write("You lost: Guess Number = " + guessNum + ", Your Num = " + num + "<br>");
         numLost++;
     }
     
